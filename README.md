@@ -67,5 +67,3 @@
 
 <!-- Hecho con amor -->
 Made with 💙 by __Nahuel DevOne⚡__
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Nahuel-Devone/)

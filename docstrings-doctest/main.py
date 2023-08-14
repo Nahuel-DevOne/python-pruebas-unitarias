@@ -1,17 +1,8 @@
-"""Este es el Docstring del módulo objetos-documentables."""
-# El docstring debe encontrarse en la primera línea del bloque
-# Importante, utilizar con nombre main
+"""Este es el Docstring del módulo main"""
 
-# objetos documentables:
-# A todos aquellos objetos que se puedan documentar con docstrings
-# Poseen el atributo __doc__
-# - funciones
-# - clases
-# - métodos
-# - módulos
-
-class user:
+class User:
     """Permite representar un usuario."""
+    
     def __init__(self, username: str, password: str) -> None:
         """Permite instanciar un objeto de tipo User
 
@@ -19,6 +10,10 @@ class user:
             username (str): El username del usuario
             password (str): El password del usuario
         """
+        
+        self.username = username
+        self.password = password
+        
 
 def palindromo(sentence: str) -> bool:
     """Permite conocer si un string es o no un palíndromo.
@@ -28,21 +23,15 @@ def palindromo(sentence: str) -> bool:
 
     Returns:
         bool: True o False
-    
-    Examples:
-    
-    >>> palindromo('Anita lava la tina')
-    True
-    
-    >>> palindromo('CodigoFacilito')
-    False
-    
-    >>> sentence = 'Oso'
-    >>> palindromo(sentence)
-    True
     """
     sentence = sentence.lower().replace(' ', '')
     return sentence == sentence[::-1]
 
-
 palindromo('Anita lava la tina')
+
+##### Las casos de prueba se corrieron a test_main.txt
+# Para ejecutarlos, desde el directorio docstrings-doctest:
+# python -m doctest test_main.txt
+
+# Para ver la prueba:
+# python -m doctest test_main.txt - v

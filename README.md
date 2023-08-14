@@ -70,7 +70,7 @@ Son comentarios para documentar. El siguiente ejemplo sigue el estilo de Google:
 ![](img/capturas-docstrings-doctest/img-docstring.png)
 
 #### **Doctest:**
-Es una prueba de testing ya incluida como herramienta dentro de Python:
+Es una prueba de testing ya incluida como herramienta dentro de Python, pero no es un framework de testing. Es limitado a pruebas sencillas:
 
 ![](img/capturas-docstrings-doctest/img-doctest.png)
 

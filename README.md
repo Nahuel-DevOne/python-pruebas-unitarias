@@ -62,8 +62,17 @@
 - [python](https://www.python.org/)
 
 <br>
-<!-- ### **`Otro:`** -->
 
+### **`Capturas:`**
+#### **Docstrings:**
+Son comentarios para documentar. El siguiente ejemplo sigue el estilo de Google:
+
+![](img/capturas-docstrings-doctest/img-docstring.png)
+
+#### **Doctest:**
+Es una prueba de testing ya incluida como herramienta dentro de Python:
+
+![](img/capturas-docstrings-doctest/img-doctest.png)
 
 <!-- Hecho con amor -->
 Made with 💙 by __Nahuel DevOne⚡__
